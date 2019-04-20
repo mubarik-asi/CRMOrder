@@ -1,0 +1,2061 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="136" passed="136">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2418413" started-at="2019-04-19T15:38:19Z" finished-at="2019-04-19T16:18:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2418413" started-at="2019-04-19T15:38:19Z" finished-at="2019-04-19T16:18:37Z">
+      <class name="Master.OrdersExecution">
+        <test-method status="PASS" signature="Startup()[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="Startup" is-config="true" duration-ms="35518" started-at="2019-04-19T20:38:19Z" finished-at="2019-04-19T20:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Startup -->
+        <test-method status="PASS" signature="LoginApp()[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="LoginApp" duration-ms="54360" started-at="2019-04-19T20:38:54Z" finished-at="2019-04-19T20:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApp -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="2" started-at="2019-04-19T20:39:49Z" finished-at="2019-04-19T20:39:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginApp status=SUCCESS method=OrdersExecution.LoginApp()[pri:0, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="OrdersListing_SearchOrderField_PlaceholderVerification()[pri:1, instance:Master.OrdersExecution@2f686d1f]" name="OrdersListing_SearchOrderField_PlaceholderVerification" duration-ms="3371" started-at="2019-04-19T20:39:49Z" finished-at="2019-04-19T20:39:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrdersListing_SearchOrderField_PlaceholderVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:39:52Z" finished-at="2019-04-19T20:39:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrdersListing_SearchOrderField_PlaceholderVerification status=SUCCESS method=OrdersExecution.OrdersListing_SearchOrderField_PlaceholderVerification()[pri:1, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Settings_AutomaticSalesTaxChecked()[pri:2, instance:Master.OrdersExecution@2f686d1f]" name="Settings_AutomaticSalesTaxChecked" duration-ms="9221" started-at="2019-04-19T20:39:52Z" finished-at="2019-04-19T20:40:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Settings_AutomaticSalesTaxChecked -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-19T20:40:01Z" finished-at="2019-04-19T20:40:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Settings_AutomaticSalesTaxChecked status=SUCCESS method=OrdersExecution.Settings_AutomaticSalesTaxChecked()[pri:2, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Percentage_square_in_Orders_SummaryWidget_ToolTip_TextVerification()[pri:3, instance:Master.OrdersExecution@2f686d1f]" name="Percentage_square_in_Orders_SummaryWidget_ToolTip_TextVerification" duration-ms="13584" started-at="2019-04-19T20:40:01Z" finished-at="2019-04-19T20:40:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Percentage_square_in_Orders_SummaryWidget_ToolTip_TextVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-19T20:40:15Z" finished-at="2019-04-19T20:40:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Percentage_square_in_Orders_SummaryWidget_ToolTip_TextVerification status=SUCCESS method=OrdersExecution.Percentage_square_in_Orders_SummaryWidget_ToolTip_TextVerification()[pri:3, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Percentage_circle_inOrdersSummary_Widget_ToolTip_TextVerification()[pri:4, instance:Master.OrdersExecution@2f686d1f]" name="Percentage_circle_inOrdersSummary_Widget_ToolTip_TextVerification" duration-ms="6581" started-at="2019-04-19T20:40:15Z" finished-at="2019-04-19T20:40:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Percentage_circle_inOrdersSummary_Widget_ToolTip_TextVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:40:21Z" finished-at="2019-04-19T20:40:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Percentage_circle_inOrdersSummary_Widget_ToolTip_TextVerification status=SUCCESS method=OrdersExecution.Percentage_circle_inOrdersSummary_Widget_ToolTip_TextVerification()[pri:4, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="PayWith_ElectronicFundsOption_DropdownValueVerification()[pri:5, instance:Master.OrdersExecution@2f686d1f]" name="PayWith_ElectronicFundsOption_DropdownValueVerification" duration-ms="5651" started-at="2019-04-19T20:40:21Z" finished-at="2019-04-19T20:40:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PayWith_ElectronicFundsOption_DropdownValueVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:40:27Z" finished-at="2019-04-19T20:40:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PayWith_ElectronicFundsOption_DropdownValueVerification status=SUCCESS method=OrdersExecution.PayWith_ElectronicFundsOption_DropdownValueVerification()[pri:5, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="ShipVia_LoomisGroundOption_DropdownValueVerifcation()[pri:6, instance:Master.OrdersExecution@2f686d1f]" name="ShipVia_LoomisGroundOption_DropdownValueVerifcation" duration-ms="203" started-at="2019-04-19T20:40:27Z" finished-at="2019-04-19T20:40:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShipVia_LoomisGroundOption_DropdownValueVerifcation -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:40:27Z" finished-at="2019-04-19T20:40:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ShipVia_LoomisGroundOption_DropdownValueVerifcation status=SUCCESS method=OrdersExecution.ShipVia_LoomisGroundOption_DropdownValueVerifcation()[pri:6, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="OrderSaving_WithoutSalesPerson_ValidationVerification()[pri:7, instance:Master.OrdersExecution@2f686d1f]" name="OrderSaving_WithoutSalesPerson_ValidationVerification" duration-ms="4612" started-at="2019-04-19T20:40:27Z" finished-at="2019-04-19T20:40:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderSaving_WithoutSalesPerson_ValidationVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:40:32Z" finished-at="2019-04-19T20:40:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrderSaving_WithoutSalesPerson_ValidationVerification status=SUCCESS method=OrdersExecution.OrderSaving_WithoutSalesPerson_ValidationVerification()[pri:7, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="UploadDSTFileOrders_Orderlevel()[pri:8, instance:Master.OrdersExecution@2f686d1f]" name="UploadDSTFileOrders_Orderlevel" duration-ms="30911" started-at="2019-04-19T20:40:32Z" finished-at="2019-04-19T20:41:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UploadDSTFileOrders_Orderlevel -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:41:03Z" finished-at="2019-04-19T20:41:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UploadDSTFileOrders_Orderlevel status=SUCCESS method=OrdersExecution.UploadDSTFileOrders_Orderlevel()[pri:8, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="InvalidFileUpload_ErrorMessageDisplayVerification()[pri:9, instance:Master.OrdersExecution@2f686d1f]" name="InvalidFileUpload_ErrorMessageDisplayVerification" duration-ms="14015" started-at="2019-04-19T20:41:03Z" finished-at="2019-04-19T20:41:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidFileUpload_ErrorMessageDisplayVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:41:17Z" finished-at="2019-04-19T20:41:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidFileUpload_ErrorMessageDisplayVerification status=SUCCESS method=OrdersExecution.InvalidFileUpload_ErrorMessageDisplayVerification()[pri:9, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Upload_AIExtensionFile()[pri:10, instance:Master.OrdersExecution@2f686d1f]" name="Upload_AIExtensionFile" duration-ms="22800" started-at="2019-04-19T20:41:17Z" finished-at="2019-04-19T20:41:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Upload_AIExtensionFile -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-19T20:41:40Z" finished-at="2019-04-19T20:41:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Upload_AIExtensionFile status=SUCCESS method=OrdersExecution.Upload_AIExtensionFile()[pri:10, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="CustomProducts_SupplierSelectionDropdown_Verification()[pri:11, instance:Master.OrdersExecution@2f686d1f]" name="CustomProducts_SupplierSelectionDropdown_Verification" duration-ms="3960" started-at="2019-04-19T20:41:40Z" finished-at="2019-04-19T20:41:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomProducts_SupplierSelectionDropdown_Verification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-19T20:41:44Z" finished-at="2019-04-19T20:41:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CustomProducts_SupplierSelectionDropdown_Verification status=SUCCESS method=OrdersExecution.CustomProducts_SupplierSelectionDropdown_Verification()[pri:11, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="cogWheelIcon_CustomProductsVerification()[pri:12, instance:Master.OrdersExecution@2f686d1f]" name="cogWheelIcon_CustomProductsVerification" duration-ms="3190" started-at="2019-04-19T20:41:44Z" finished-at="2019-04-19T20:41:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cogWheelIcon_CustomProductsVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-19T20:41:47Z" finished-at="2019-04-19T20:41:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cogWheelIcon_CustomProductsVerification status=SUCCESS method=OrdersExecution.cogWheelIcon_CustomProductsVerification()[pri:12, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="DeleteOrder_Orderlevel()[pri:13, instance:Master.OrdersExecution@2f686d1f]" name="DeleteOrder_Orderlevel" duration-ms="6826" started-at="2019-04-19T20:41:47Z" finished-at="2019-04-19T20:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteOrder_Orderlevel -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:41:54Z" finished-at="2019-04-19T20:41:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DeleteOrder_Orderlevel status=SUCCESS method=OrdersExecution.DeleteOrder_Orderlevel()[pri:13, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="CustomerFacingDoc_CPN_Visible_EnableFromSettings()[pri:14, instance:Master.OrdersExecution@2f686d1f]" name="CustomerFacingDoc_CPN_Visible_EnableFromSettings" duration-ms="31258" started-at="2019-04-19T20:41:54Z" finished-at="2019-04-19T20:42:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerFacingDoc_CPN_Visible_EnableFromSettings -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-19T20:42:25Z" finished-at="2019-04-19T20:42:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CustomerFacingDoc_CPN_Visible_EnableFromSettings status=SUCCESS method=OrdersExecution.CustomerFacingDoc_CPN_Visible_EnableFromSettings()[pri:14, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="CreateQuote_BillingAddress_Verification()[pri:15, instance:Master.OrdersExecution@2f686d1f]" name="CreateQuote_BillingAddress_Verification" duration-ms="38056" started-at="2019-04-19T20:42:25Z" finished-at="2019-04-19T20:43:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateQuote_BillingAddress_Verification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-19T20:43:03Z" finished-at="2019-04-19T20:43:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateQuote_BillingAddress_Verification status=SUCCESS method=OrdersExecution.CreateQuote_BillingAddress_Verification()[pri:15, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="CreateQuote_ShippingAddress_Verification()[pri:16, instance:Master.OrdersExecution@2f686d1f]" name="CreateQuote_ShippingAddress_Verification" duration-ms="150" started-at="2019-04-19T20:43:03Z" finished-at="2019-04-19T20:43:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateQuote_ShippingAddress_Verification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:43:03Z" finished-at="2019-04-19T20:43:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateQuote_ShippingAddress_Verification status=SUCCESS method=OrdersExecution.CreateQuote_ShippingAddress_Verification()[pri:16, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="CreateQuote_AddingProductToQuote()[pri:17, instance:Master.OrdersExecution@2f686d1f]" name="CreateQuote_AddingProductToQuote" duration-ms="11620" started-at="2019-04-19T20:43:03Z" finished-at="2019-04-19T20:43:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateQuote_AddingProductToQuote -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:43:15Z" finished-at="2019-04-19T20:43:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateQuote_AddingProductToQuote status=SUCCESS method=OrdersExecution.CreateQuote_AddingProductToQuote()[pri:17, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="CreateQuote_Verification()[pri:18, instance:Master.OrdersExecution@2f686d1f]" name="CreateQuote_Verification" duration-ms="43792" started-at="2019-04-19T20:43:15Z" finished-at="2019-04-19T20:43:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateQuote_Verification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:43:58Z" finished-at="2019-04-19T20:43:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateQuote_Verification status=SUCCESS method=OrdersExecution.CreateQuote_Verification()[pri:18, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="ShipAccountNo_Checkbox_Uncheck_ByDefaultVerification()[pri:19, instance:Master.OrdersExecution@2f686d1f]" name="ShipAccountNo_Checkbox_Uncheck_ByDefaultVerification" duration-ms="99" started-at="2019-04-19T20:43:58Z" finished-at="2019-04-19T20:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShipAccountNo_Checkbox_Uncheck_ByDefaultVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:43:59Z" finished-at="2019-04-19T20:43:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ShipAccountNo_Checkbox_Uncheck_ByDefaultVerification status=SUCCESS method=OrdersExecution.ShipAccountNo_Checkbox_Uncheck_ByDefaultVerification()[pri:19, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="ShipAccountNotVisible_Visible_Checkbox_UncheckForAccountNo()[pri:20, instance:Master.OrdersExecution@2f686d1f]" name="ShipAccountNotVisible_Visible_Checkbox_UncheckForAccountNo" duration-ms="27654" started-at="2019-04-19T20:43:59Z" finished-at="2019-04-19T20:44:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShipAccountNotVisible_Visible_Checkbox_UncheckForAccountNo -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:44:26Z" finished-at="2019-04-19T20:44:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ShipAccountNotVisible_Visible_Checkbox_UncheckForAccountNo status=SUCCESS method=OrdersExecution.ShipAccountNotVisible_Visible_Checkbox_UncheckForAccountNo()[pri:20, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="CPN_Number_QuoteDocPreview_Verification()[pri:21, instance:Master.OrdersExecution@2f686d1f]" name="CPN_Number_QuoteDocPreview_Verification" duration-ms="2174" started-at="2019-04-19T20:44:26Z" finished-at="2019-04-19T20:44:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CPN_Number_QuoteDocPreview_Verification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:44:28Z" finished-at="2019-04-19T20:44:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CPN_Number_QuoteDocPreview_Verification status=SUCCESS method=OrdersExecution.CPN_Number_QuoteDocPreview_Verification()[pri:21, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_QuotePreviewVerification()[pri:22, instance:Master.OrdersExecution@2f686d1f]" name="VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_QuotePreviewVerification" duration-ms="43255" started-at="2019-04-19T20:44:28Z" finished-at="2019-04-19T20:45:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_QuotePreviewVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-19T20:45:12Z" finished-at="2019-04-19T20:45:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_QuotePreviewVerification status=SUCCESS method=OrdersExecution.VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_QuotePreviewVerification()[pri:22, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="ShipAccountNo_Visibility_QuoteDocumentVerification()[pri:23, instance:Master.OrdersExecution@2f686d1f]" name="ShipAccountNo_Visibility_QuoteDocumentVerification" duration-ms="25169" started-at="2019-04-19T20:45:12Z" finished-at="2019-04-19T20:45:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShipAccountNo_Visibility_QuoteDocumentVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:45:37Z" finished-at="2019-04-19T20:45:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ShipAccountNo_Visibility_QuoteDocumentVerification status=SUCCESS method=OrdersExecution.ShipAccountNo_Visibility_QuoteDocumentVerification()[pri:23, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="AccountNo_Visible_Checkbox_Selected_Verification_AtProductLevel()[pri:24, instance:Master.OrdersExecution@2f686d1f]" name="AccountNo_Visible_Checkbox_Selected_Verification_AtProductLevel" duration-ms="9155" started-at="2019-04-19T20:45:37Z" finished-at="2019-04-19T20:45:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountNo_Visible_Checkbox_Selected_Verification_AtProductLevel -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:45:46Z" finished-at="2019-04-19T20:45:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AccountNo_Visible_Checkbox_Selected_Verification_AtProductLevel status=SUCCESS method=OrdersExecution.AccountNo_Visible_Checkbox_Selected_Verification_AtProductLevel()[pri:24, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Quote_Download()[pri:25, instance:Master.OrdersExecution@2f686d1f]" name="Quote_Download" duration-ms="31981" started-at="2019-04-19T20:45:46Z" finished-at="2019-04-19T20:46:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quote_Download -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:46:18Z" finished-at="2019-04-19T20:46:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Quote_Download status=SUCCESS method=OrdersExecution.Quote_Download()[pri:25, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="CreateOrder_FromQuote_LinkedTransactionInvoice()[pri:26, instance:Master.OrdersExecution@2f686d1f]" name="CreateOrder_FromQuote_LinkedTransactionInvoice" duration-ms="51782" started-at="2019-04-19T20:46:18Z" finished-at="2019-04-19T20:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrder_FromQuote_LinkedTransactionInvoice -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-19T20:47:10Z" finished-at="2019-04-19T20:47:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateOrder_FromQuote_LinkedTransactionInvoice status=SUCCESS method=OrdersExecution.CreateOrder_FromQuote_LinkedTransactionInvoice()[pri:26, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="ShipAccountNo_Visibility_InvoiceDocumentVerification()[pri:27, instance:Master.OrdersExecution@2f686d1f]" name="ShipAccountNo_Visibility_InvoiceDocumentVerification" duration-ms="8319" started-at="2019-04-19T20:47:10Z" finished-at="2019-04-19T20:47:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShipAccountNo_Visibility_InvoiceDocumentVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:47:18Z" finished-at="2019-04-19T20:47:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ShipAccountNo_Visibility_InvoiceDocumentVerification status=SUCCESS method=OrdersExecution.ShipAccountNo_Visibility_InvoiceDocumentVerification()[pri:27, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="CPN_NumberVisibilityAtInvoiceDoc_Verification()[pri:28, instance:Master.OrdersExecution@2f686d1f]" name="CPN_NumberVisibilityAtInvoiceDoc_Verification" duration-ms="88" started-at="2019-04-19T20:47:18Z" finished-at="2019-04-19T20:47:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CPN_NumberVisibilityAtInvoiceDoc_Verification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:47:18Z" finished-at="2019-04-19T20:47:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CPN_NumberVisibilityAtInvoiceDoc_Verification status=SUCCESS method=OrdersExecution.CPN_NumberVisibilityAtInvoiceDoc_Verification()[pri:28, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_InvoicePreviewVerification()[pri:29, instance:Master.OrdersExecution@2f686d1f]" name="VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_InvoicePreviewVerification" duration-ms="3171" started-at="2019-04-19T20:47:18Z" finished-at="2019-04-19T20:47:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_InvoicePreviewVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:47:21Z" finished-at="2019-04-19T20:47:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_InvoicePreviewVerification status=SUCCESS method=OrdersExecution.VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_InvoicePreviewVerification()[pri:29, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="LinkedTransaction_Navigation_To_OrderScreen()[pri:30, instance:Master.OrdersExecution@2f686d1f]" name="LinkedTransaction_Navigation_To_OrderScreen" duration-ms="7284" started-at="2019-04-19T20:47:21Z" finished-at="2019-04-19T20:47:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinkedTransaction_Navigation_To_OrderScreen -->
+        <test-method status="PASS" signature="CreateOrder_Delete_Orderwith_Associated_Invoices()[pri:31, instance:Master.OrdersExecution@2f686d1f]" name="CreateOrder_Delete_Orderwith_Associated_Invoices" duration-ms="5117" started-at="2019-04-19T20:47:29Z" finished-at="2019-04-19T20:47:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrder_Delete_Orderwith_Associated_Invoices -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:47:29Z" finished-at="2019-04-19T20:47:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LinkedTransaction_Navigation_To_OrderScreen status=SUCCESS method=OrdersExecution.LinkedTransaction_Navigation_To_OrderScreen()[pri:30, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="ShipAccountNo_AcknowledgementDocumentVerification()[pri:32, instance:Master.OrdersExecution@2f686d1f]" name="ShipAccountNo_AcknowledgementDocumentVerification" duration-ms="30049" started-at="2019-04-19T20:47:34Z" finished-at="2019-04-19T20:48:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShipAccountNo_AcknowledgementDocumentVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:47:34Z" finished-at="2019-04-19T20:47:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateOrder_Delete_Orderwith_Associated_Invoices status=SUCCESS method=OrdersExecution.CreateOrder_Delete_Orderwith_Associated_Invoices()[pri:31, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-19T20:48:04Z" finished-at="2019-04-19T20:48:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ShipAccountNo_AcknowledgementDocumentVerification status=SUCCESS method=OrdersExecution.ShipAccountNo_AcknowledgementDocumentVerification()[pri:32, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_AcknowledgementPreviewVerification()[pri:33, instance:Master.OrdersExecution@2f686d1f]" name="VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_AcknowledgementPreviewVerification" duration-ms="4389" started-at="2019-04-19T20:48:04Z" finished-at="2019-04-19T20:48:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_AcknowledgementPreviewVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:48:08Z" finished-at="2019-04-19T20:48:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_AcknowledgementPreviewVerification status=SUCCESS method=OrdersExecution.VendorNotes_DecoratorNotes_Visible_checkbox_SelectedAtProductLevel_AcknowledgementPreviewVerification()[pri:33, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="CreateOrder_LinkedTransactions_Navigation_ToQuoteScreen()[pri:34, instance:Master.OrdersExecution@2f686d1f]" name="CreateOrder_LinkedTransactions_Navigation_ToQuoteScreen" duration-ms="8889" started-at="2019-04-19T20:48:08Z" finished-at="2019-04-19T20:48:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrder_LinkedTransactions_Navigation_ToQuoteScreen -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:48:17Z" finished-at="2019-04-19T20:48:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateOrder_LinkedTransactions_Navigation_ToQuoteScreen status=SUCCESS method=OrdersExecution.CreateOrder_LinkedTransactions_Navigation_ToQuoteScreen()[pri:34, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Enterpaymentpartial()[pri:35, instance:Master.OrdersExecution@2f686d1f]" name="Enterpaymentpartial" duration-ms="27087" started-at="2019-04-19T20:48:17Z" finished-at="2019-04-19T20:48:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Enterpaymentpartial -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-19T20:48:44Z" finished-at="2019-04-19T20:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Enterpaymentpartial status=SUCCESS method=OrdersExecution.Enterpaymentpartial()[pri:35, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="DeleteInvoice_WithPaymentLeft()[pri:36, instance:Master.OrdersExecution@2f686d1f]" name="DeleteInvoice_WithPaymentLeft" duration-ms="5591" started-at="2019-04-19T20:48:44Z" finished-at="2019-04-19T20:48:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteInvoice_WithPaymentLeft -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:48:50Z" finished-at="2019-04-19T20:48:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DeleteInvoice_WithPaymentLeft status=SUCCESS method=OrdersExecution.DeleteInvoice_WithPaymentLeft()[pri:36, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Full_Payment_Verify()[pri:37, instance:Master.OrdersExecution@2f686d1f]" name="Full_Payment_Verify" duration-ms="5608" started-at="2019-04-19T20:48:50Z" finished-at="2019-04-19T20:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Full_Payment_Verify -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-19T20:48:55Z" finished-at="2019-04-19T20:48:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Full_Payment_Verify status=SUCCESS method=OrdersExecution.Full_Payment_Verify()[pri:37, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Shipping_AddressEditing()[pri:38, instance:Master.OrdersExecution@2f686d1f]" name="Shipping_AddressEditing" duration-ms="26764" started-at="2019-04-19T20:48:55Z" finished-at="2019-04-19T20:49:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Shipping_AddressEditing -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:49:22Z" finished-at="2019-04-19T20:49:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Shipping_AddressEditing status=SUCCESS method=OrdersExecution.Shipping_AddressEditing()[pri:38, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Partial_PaymentLink_Verification()[pri:39, instance:Master.OrdersExecution@2f686d1f]" name="Partial_PaymentLink_Verification" duration-ms="39168" started-at="2019-04-19T20:49:22Z" finished-at="2019-04-19T20:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Partial_PaymentLink_Verification -->
+        <test-method status="PASS" signature="Reorder_Verification()[pri:40, instance:Master.OrdersExecution@2f686d1f]" name="Reorder_Verification" duration-ms="40495" started-at="2019-04-19T20:50:01Z" finished-at="2019-04-19T20:50:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reorder_Verification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:50:01Z" finished-at="2019-04-19T20:50:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Partial_PaymentLink_Verification status=SUCCESS method=OrdersExecution.Partial_PaymentLink_Verification()[pri:39, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:50:42Z" finished-at="2019-04-19T20:50:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Reorder_Verification status=SUCCESS method=OrdersExecution.Reorder_Verification()[pri:40, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="FieldsData_Verifications_AfterReorder()[pri:41, instance:Master.OrdersExecution@2f686d1f]" name="FieldsData_Verifications_AfterReorder" duration-ms="193" started-at="2019-04-19T20:50:42Z" finished-at="2019-04-19T20:50:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FieldsData_Verifications_AfterReorder -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:50:42Z" finished-at="2019-04-19T20:50:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FieldsData_Verifications_AfterReorder status=SUCCESS method=OrdersExecution.FieldsData_Verifications_AfterReorder()[pri:41, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="New_InhandDate_AfterReorderVerification()[pri:42, instance:Master.OrdersExecution@2f686d1f]" name="New_InhandDate_AfterReorderVerification" duration-ms="44565" started-at="2019-04-19T20:50:42Z" finished-at="2019-04-19T20:51:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- New_InhandDate_AfterReorderVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="3" started-at="2019-04-19T20:51:27Z" finished-at="2019-04-19T20:51:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=New_InhandDate_AfterReorderVerification status=SUCCESS method=OrdersExecution.New_InhandDate_AfterReorderVerification()[pri:42, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Linked_Transaction_ReOrder_Verifications()[pri:43, instance:Master.OrdersExecution@2f686d1f]" name="Linked_Transaction_ReOrder_Verifications" duration-ms="1328" started-at="2019-04-19T20:51:27Z" finished-at="2019-04-19T20:51:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Linked_Transaction_ReOrder_Verifications -->
+        <test-method status="PASS" signature="InvoiceCreationBillingAddress()[pri:44, instance:Master.OrdersExecution@2f686d1f]" name="InvoiceCreationBillingAddress" duration-ms="17267" started-at="2019-04-19T20:51:28Z" finished-at="2019-04-19T20:51:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvoiceCreationBillingAddress -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:51:28Z" finished-at="2019-04-19T20:51:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Linked_Transaction_ReOrder_Verifications status=SUCCESS method=OrdersExecution.Linked_Transaction_ReOrder_Verifications()[pri:43, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:51:45Z" finished-at="2019-04-19T20:51:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvoiceCreationBillingAddress status=SUCCESS method=OrdersExecution.InvoiceCreationBillingAddress()[pri:44, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="CreateInvoiceShippingAddress_Verification()[pri:45, instance:Master.OrdersExecution@2f686d1f]" name="CreateInvoiceShippingAddress_Verification" duration-ms="127" started-at="2019-04-19T20:51:45Z" finished-at="2019-04-19T20:51:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateInvoiceShippingAddress_Verification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:51:45Z" finished-at="2019-04-19T20:51:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateInvoiceShippingAddress_Verification status=SUCCESS method=OrdersExecution.CreateInvoiceShippingAddress_Verification()[pri:45, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Product_AddedTo_Invoice()[pri:46, instance:Master.OrdersExecution@2f686d1f]" name="Product_AddedTo_Invoice" duration-ms="15912" started-at="2019-04-19T20:51:45Z" finished-at="2019-04-19T20:52:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Product_AddedTo_Invoice -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-19T20:52:01Z" finished-at="2019-04-19T20:52:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Product_AddedTo_Invoice status=SUCCESS method=OrdersExecution.Product_AddedTo_Invoice()[pri:46, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="CreateInvoice()[pri:47, instance:Master.OrdersExecution@2f686d1f]" name="CreateInvoice" duration-ms="27368" started-at="2019-04-19T20:52:01Z" finished-at="2019-04-19T20:52:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateInvoice -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:52:29Z" finished-at="2019-04-19T20:52:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateInvoice status=SUCCESS method=OrdersExecution.CreateInvoice()[pri:47, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="CreateOrder_BillingAddressVerification()[pri:48, instance:Master.OrdersExecution@2f686d1f]" name="CreateOrder_BillingAddressVerification" duration-ms="30850" started-at="2019-04-19T20:52:29Z" finished-at="2019-04-19T20:52:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrder_BillingAddressVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-19T20:52:59Z" finished-at="2019-04-19T20:52:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateOrder_BillingAddressVerification status=SUCCESS method=OrdersExecution.CreateOrder_BillingAddressVerification()[pri:48, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="CreateOrder_ShippingAddressVerification()[pri:49, instance:Master.OrdersExecution@2f686d1f]" name="CreateOrder_ShippingAddressVerification" duration-ms="142" started-at="2019-04-19T20:52:59Z" finished-at="2019-04-19T20:53:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrder_ShippingAddressVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-19T20:53:00Z" finished-at="2019-04-19T20:53:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateOrder_ShippingAddressVerification status=SUCCESS method=OrdersExecution.CreateOrder_ShippingAddressVerification()[pri:49, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="CreateOrder_AcknowlodgementAddressVerification()[pri:50, instance:Master.OrdersExecution@2f686d1f]" name="CreateOrder_AcknowlodgementAddressVerification" duration-ms="139" started-at="2019-04-19T20:53:00Z" finished-at="2019-04-19T20:53:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrder_AcknowlodgementAddressVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:53:00Z" finished-at="2019-04-19T20:53:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateOrder_AcknowlodgementAddressVerification status=SUCCESS method=OrdersExecution.CreateOrder_AcknowlodgementAddressVerification()[pri:50, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Net25_Net45_Net90_50PercentAdvance_50PercentUponCompletion_Net75_Terms_DropdownValuesVerification()[pri:51, instance:Master.OrdersExecution@2f686d1f]" name="Net25_Net45_Net90_50PercentAdvance_50PercentUponCompletion_Net75_Terms_DropdownValuesVerification" duration-ms="800" started-at="2019-04-19T20:53:00Z" finished-at="2019-04-19T20:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Net25_Net45_Net90_50PercentAdvance_50PercentUponCompletion_Net75_Terms_DropdownValuesVerification -->
+        <test-method status="PASS" signature="FedExOvernight_FedExFLEXExpress_ShipVia_DropdownValuesVerification()[pri:52, instance:Master.OrdersExecution@2f686d1f]" name="FedExOvernight_FedExFLEXExpress_ShipVia_DropdownValuesVerification" duration-ms="2209" started-at="2019-04-19T20:53:01Z" finished-at="2019-04-19T20:53:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FedExOvernight_FedExFLEXExpress_ShipVia_DropdownValuesVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:53:01Z" finished-at="2019-04-19T20:53:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Net25_Net45_Net90_50PercentAdvance_50PercentUponCompletion_Net75_Terms_DropdownValuesVerification status=SUCCESS method=OrdersExecution.Net25_Net45_Net90_50PercentAdvance_50PercentUponCompletion_Net75_Terms_DropdownValuesVerification()[pri:51, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="UploadDSTFiles_Orderlevel()[pri:53, instance:Master.OrdersExecution@2f686d1f]" name="UploadDSTFiles_Orderlevel" duration-ms="29501" started-at="2019-04-19T20:53:03Z" finished-at="2019-04-19T20:53:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UploadDSTFiles_Orderlevel -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:53:03Z" finished-at="2019-04-19T20:53:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FedExOvernight_FedExFLEXExpress_ShipVia_DropdownValuesVerification status=SUCCESS method=OrdersExecution.FedExOvernight_FedExFLEXExpress_ShipVia_DropdownValuesVerification()[pri:52, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Product_AddedTo_Order()[pri:54, instance:Master.OrdersExecution@2f686d1f]" name="Product_AddedTo_Order" duration-ms="11638" started-at="2019-04-19T20:53:32Z" finished-at="2019-04-19T20:53:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Product_AddedTo_Order -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:53:32Z" finished-at="2019-04-19T20:53:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UploadDSTFiles_Orderlevel status=SUCCESS method=OrdersExecution.UploadDSTFiles_Orderlevel()[pri:53, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:53:44Z" finished-at="2019-04-19T20:53:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Product_AddedTo_Order status=SUCCESS method=OrdersExecution.Product_AddedTo_Order()[pri:54, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Send_ASI_SmartBookslink_Verification()[pri:55, instance:Master.OrdersExecution@2f686d1f]" name="Send_ASI_SmartBookslink_Verification" duration-ms="107" started-at="2019-04-19T20:53:44Z" finished-at="2019-04-19T20:53:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Send_ASI_SmartBookslink_Verification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:53:44Z" finished-at="2019-04-19T20:53:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Send_ASI_SmartBookslink_Verification status=SUCCESS method=OrdersExecution.Send_ASI_SmartBookslink_Verification()[pri:55, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="CreateOrder()[pri:56, instance:Master.OrdersExecution@2f686d1f]" name="CreateOrder" duration-ms="32240" started-at="2019-04-19T20:53:44Z" finished-at="2019-04-19T20:54:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrder -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:54:16Z" finished-at="2019-04-19T20:54:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateOrder status=SUCCESS method=OrdersExecution.CreateOrder()[pri:56, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="PNameandSupplierASInoAreClickable()[pri:57, instance:Master.OrdersExecution@2f686d1f]" name="PNameandSupplierASInoAreClickable" duration-ms="26064" started-at="2019-04-19T20:54:16Z" finished-at="2019-04-19T20:54:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PNameandSupplierASInoAreClickable -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:54:42Z" finished-at="2019-04-19T20:54:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PNameandSupplierASInoAreClickable status=SUCCESS method=OrdersExecution.PNameandSupplierASInoAreClickable()[pri:57, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="BackButton()[pri:58, instance:Master.OrdersExecution@2f686d1f]" name="BackButton" duration-ms="17493" started-at="2019-04-19T20:54:42Z" finished-at="2019-04-19T20:55:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BackButton -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-19T20:55:00Z" finished-at="2019-04-19T20:55:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BackButton status=SUCCESS method=OrdersExecution.BackButton()[pri:58, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="OrderProductConfig_NewAddCharge_in_Configuration_WithAmount_Verification()[pri:59, instance:Master.OrdersExecution@2f686d1f]" name="OrderProductConfig_NewAddCharge_in_Configuration_WithAmount_Verification" duration-ms="14128" started-at="2019-04-19T20:55:00Z" finished-at="2019-04-19T20:55:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderProductConfig_NewAddCharge_in_Configuration_WithAmount_Verification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:55:14Z" finished-at="2019-04-19T20:55:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrderProductConfig_NewAddCharge_in_Configuration_WithAmount_Verification status=SUCCESS method=OrdersExecution.OrderProductConfig_NewAddCharge_in_Configuration_WithAmount_Verification()[pri:59, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="AddVendor_Charge_WithAmount_calculation()[pri:60, instance:Master.OrdersExecution@2f686d1f]" name="AddVendor_Charge_WithAmount_calculation" duration-ms="7509" started-at="2019-04-19T20:55:14Z" finished-at="2019-04-19T20:55:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddVendor_Charge_WithAmount_calculation -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:55:21Z" finished-at="2019-04-19T20:55:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddVendor_Charge_WithAmount_calculation status=SUCCESS method=OrdersExecution.AddVendor_Charge_WithAmount_calculation()[pri:60, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Existing_Artwork_File_UploadVerification()[pri:61, instance:Master.OrdersExecution@2f686d1f]" name="Existing_Artwork_File_UploadVerification" duration-ms="31688" started-at="2019-04-19T20:55:21Z" finished-at="2019-04-19T20:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Existing_Artwork_File_UploadVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:55:53Z" finished-at="2019-04-19T20:55:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Existing_Artwork_File_UploadVerification status=SUCCESS method=OrdersExecution.Existing_Artwork_File_UploadVerification()[pri:61, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Artwork_DownloadUnderDecorationTab()[pri:62, instance:Master.OrdersExecution@2f686d1f]" name="Artwork_DownloadUnderDecorationTab" duration-ms="8591" started-at="2019-04-19T20:55:53Z" finished-at="2019-04-19T20:56:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Artwork_DownloadUnderDecorationTab -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:56:02Z" finished-at="2019-04-19T20:56:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Artwork_DownloadUnderDecorationTab status=SUCCESS method=OrdersExecution.Artwork_DownloadUnderDecorationTab()[pri:62, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Artwork_FileDeletion()[pri:63, instance:Master.OrdersExecution@2f686d1f]" name="Artwork_FileDeletion" duration-ms="27107" started-at="2019-04-19T20:56:02Z" finished-at="2019-04-19T20:56:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Artwork_FileDeletion -->
+        <test-method status="PASS" signature="Decoration_Charge_With_Amountcalculation()[pri:64, instance:Master.OrdersExecution@2f686d1f]" name="Decoration_Charge_With_Amountcalculation" duration-ms="70283" started-at="2019-04-19T20:56:29Z" finished-at="2019-04-19T20:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Decoration_Charge_With_Amountcalculation -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:56:29Z" finished-at="2019-04-19T20:56:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Artwork_FileDeletion status=SUCCESS method=OrdersExecution.Artwork_FileDeletion()[pri:63, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-19T20:57:39Z" finished-at="2019-04-19T20:57:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Decoration_Charge_With_Amountcalculation status=SUCCESS method=OrdersExecution.Decoration_Charge_With_Amountcalculation()[pri:64, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Verificationof_Decoration_Display_Under_DecorationTab()[pri:65, instance:Master.OrdersExecution@2f686d1f]" name="Verificationof_Decoration_Display_Under_DecorationTab" duration-ms="1266" started-at="2019-04-19T20:57:39Z" finished-at="2019-04-19T20:57:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verificationof_Decoration_Display_Under_DecorationTab -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:57:40Z" finished-at="2019-04-19T20:57:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verificationof_Decoration_Display_Under_DecorationTab status=SUCCESS method=OrdersExecution.Verificationof_Decoration_Display_Under_DecorationTab()[pri:65, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="AddingInstructions()[pri:66, instance:Master.OrdersExecution@2f686d1f]" name="AddingInstructions" duration-ms="15458" started-at="2019-04-19T20:57:40Z" finished-at="2019-04-19T20:57:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddingInstructions -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:57:56Z" finished-at="2019-04-19T20:57:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddingInstructions status=SUCCESS method=OrdersExecution.AddingInstructions()[pri:66, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="InstructionsViewing()[pri:67, instance:Master.OrdersExecution@2f686d1f]" name="InstructionsViewing" duration-ms="12367" started-at="2019-04-19T20:57:56Z" finished-at="2019-04-19T20:58:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InstructionsViewing -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:58:08Z" finished-at="2019-04-19T20:58:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InstructionsViewing status=SUCCESS method=OrdersExecution.InstructionsViewing()[pri:67, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Settings_SalesTaxConfig()[pri:68, instance:Master.OrdersExecution@2f686d1f]" name="Settings_SalesTaxConfig" duration-ms="41458" started-at="2019-04-19T20:58:08Z" finished-at="2019-04-19T20:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Settings_SalesTaxConfig -->
+        <test-method status="PASS" signature="ManualSalesTaxCalculation()[pri:69, instance:Master.OrdersExecution@2f686d1f]" name="ManualSalesTaxCalculation" duration-ms="29265" started-at="2019-04-19T20:58:50Z" finished-at="2019-04-19T20:59:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ManualSalesTaxCalculation -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:58:50Z" finished-at="2019-04-19T20:58:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Settings_SalesTaxConfig status=SUCCESS method=OrdersExecution.Settings_SalesTaxConfig()[pri:68, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:59:19Z" finished-at="2019-04-19T20:59:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ManualSalesTaxCalculation status=SUCCESS method=OrdersExecution.ManualSalesTaxCalculation()[pri:69, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Freight_ServicePopup_Display()[pri:70, instance:Master.OrdersExecution@2f686d1f]" name="Freight_ServicePopup_Display" duration-ms="11702" started-at="2019-04-19T20:59:19Z" finished-at="2019-04-19T20:59:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Freight_ServicePopup_Display -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:59:31Z" finished-at="2019-04-19T20:59:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Freight_ServicePopup_Display status=SUCCESS method=OrdersExecution.Freight_ServicePopup_Display()[pri:70, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Freight_Title_Field_TextValidation()[pri:71, instance:Master.OrdersExecution@2f686d1f]" name="Freight_Title_Field_TextValidation" duration-ms="57" started-at="2019-04-19T20:59:31Z" finished-at="2019-04-19T20:59:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Freight_Title_Field_TextValidation -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:59:31Z" finished-at="2019-04-19T20:59:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Freight_Title_Field_TextValidation status=SUCCESS method=OrdersExecution.Freight_Title_Field_TextValidation()[pri:71, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Freight_TitleUpdate()[pri:72, instance:Master.OrdersExecution@2f686d1f]" name="Freight_TitleUpdate" duration-ms="25957" started-at="2019-04-19T20:59:31Z" finished-at="2019-04-19T20:59:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Freight_TitleUpdate -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T20:59:57Z" finished-at="2019-04-19T20:59:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Freight_TitleUpdate status=SUCCESS method=OrdersExecution.Freight_TitleUpdate()[pri:72, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Services_VendorCompanyVerification()[pri:73, instance:Master.OrdersExecution@2f686d1f]" name="Services_VendorCompanyVerification" duration-ms="20197" started-at="2019-04-19T20:59:57Z" finished-at="2019-04-19T21:00:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Services_VendorCompanyVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-19T21:00:17Z" finished-at="2019-04-19T21:00:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Services_VendorCompanyVerification status=SUCCESS method=OrdersExecution.Services_VendorCompanyVerification()[pri:73, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Freight_Service_Add_TaxCalculation_Verification()[pri:74, instance:Master.OrdersExecution@2f686d1f]" name="Freight_Service_Add_TaxCalculation_Verification" duration-ms="476" started-at="2019-04-19T21:00:17Z" finished-at="2019-04-19T21:00:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Freight_Service_Add_TaxCalculation_Verification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-19T21:00:17Z" finished-at="2019-04-19T21:00:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Freight_Service_Add_TaxCalculation_Verification status=SUCCESS method=OrdersExecution.Freight_Service_Add_TaxCalculation_Verification()[pri:74, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Settings_ShippingTaxConfig()[pri:75, instance:Master.OrdersExecution@2f686d1f]" name="Settings_ShippingTaxConfig" duration-ms="16605" started-at="2019-04-19T21:00:17Z" finished-at="2019-04-19T21:00:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Settings_ShippingTaxConfig -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:00:34Z" finished-at="2019-04-19T21:00:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Settings_ShippingTaxConfig status=SUCCESS method=OrdersExecution.Settings_ShippingTaxConfig()[pri:75, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Settings_ShippingTaxCalculationVerify()[pri:76, instance:Master.OrdersExecution@2f686d1f]" name="Settings_ShippingTaxCalculationVerify" duration-ms="54432" started-at="2019-04-19T21:00:34Z" finished-at="2019-04-19T21:01:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Settings_ShippingTaxCalculationVerify -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:01:28Z" finished-at="2019-04-19T21:01:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Settings_ShippingTaxCalculationVerify status=SUCCESS method=OrdersExecution.Settings_ShippingTaxCalculationVerify()[pri:76, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="TaxCalculationWithServiceTypeCredit()[pri:77, instance:Master.OrdersExecution@2f686d1f]" name="TaxCalculationWithServiceTypeCredit" duration-ms="54553" started-at="2019-04-19T21:01:28Z" finished-at="2019-04-19T21:02:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TaxCalculationWithServiceTypeCredit -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-19T21:02:23Z" finished-at="2019-04-19T21:02:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TaxCalculationWithServiceTypeCredit status=SUCCESS method=OrdersExecution.TaxCalculationWithServiceTypeCredit()[pri:77, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="MultiShippingAddress()[pri:78, instance:Master.OrdersExecution@2f686d1f]" name="MultiShippingAddress" duration-ms="20672" started-at="2019-04-19T21:02:23Z" finished-at="2019-04-19T21:02:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultiShippingAddress -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="2" started-at="2019-04-19T21:02:44Z" finished-at="2019-04-19T21:02:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MultiShippingAddress status=SUCCESS method=OrdersExecution.MultiShippingAddress()[pri:78, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Zero_Quantity_Validation_MessageVerification()[pri:79, instance:Master.OrdersExecution@2f686d1f]" name="Zero_Quantity_Validation_MessageVerification" duration-ms="41878" started-at="2019-04-19T21:02:44Z" finished-at="2019-04-19T21:03:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Zero_Quantity_Validation_MessageVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:03:25Z" finished-at="2019-04-19T21:03:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Zero_Quantity_Validation_MessageVerification status=SUCCESS method=OrdersExecution.Zero_Quantity_Validation_MessageVerification()[pri:79, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="SplitShipment_not_showingin_shippingtab()[pri:80, instance:Master.OrdersExecution@2f686d1f]" name="SplitShipment_not_showingin_shippingtab" duration-ms="7764" started-at="2019-04-19T21:03:25Z" finished-at="2019-04-19T21:03:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SplitShipment_not_showingin_shippingtab -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:03:33Z" finished-at="2019-04-19T21:03:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SplitShipment_not_showingin_shippingtab status=SUCCESS method=OrdersExecution.SplitShipment_not_showingin_shippingtab()[pri:80, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="SplitShipment_Showing_inPricing_tab()[pri:81, instance:Master.OrdersExecution@2f686d1f]" name="SplitShipment_Showing_inPricing_tab" duration-ms="2717" started-at="2019-04-19T21:03:33Z" finished-at="2019-04-19T21:03:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SplitShipment_Showing_inPricing_tab -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:03:36Z" finished-at="2019-04-19T21:03:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SplitShipment_Showing_inPricing_tab status=SUCCESS method=OrdersExecution.SplitShipment_Showing_inPricing_tab()[pri:81, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="SplitShipment_Showing_inDecoration_tab()[pri:82, instance:Master.OrdersExecution@2f686d1f]" name="SplitShipment_Showing_inDecoration_tab" duration-ms="503" started-at="2019-04-19T21:03:36Z" finished-at="2019-04-19T21:03:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SplitShipment_Showing_inDecoration_tab -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-19T21:03:36Z" finished-at="2019-04-19T21:03:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SplitShipment_Showing_inDecoration_tab status=SUCCESS method=OrdersExecution.SplitShipment_Showing_inDecoration_tab()[pri:82, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="SplitShipment_Showingin_PurchaseOrder_tab()[pri:83, instance:Master.OrdersExecution@2f686d1f]" name="SplitShipment_Showingin_PurchaseOrder_tab" duration-ms="723" started-at="2019-04-19T21:03:36Z" finished-at="2019-04-19T21:03:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SplitShipment_Showingin_PurchaseOrder_tab -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:03:37Z" finished-at="2019-04-19T21:03:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SplitShipment_Showingin_PurchaseOrder_tab status=SUCCESS method=OrdersExecution.SplitShipment_Showingin_PurchaseOrder_tab()[pri:83, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="TwoPOsCreation()[pri:84, instance:Master.OrdersExecution@2f686d1f]" name="TwoPOsCreation" duration-ms="94799" started-at="2019-04-19T21:03:37Z" finished-at="2019-04-19T21:05:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TwoPOsCreation -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-19T21:05:12Z" finished-at="2019-04-19T21:05:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TwoPOsCreation status=SUCCESS method=OrdersExecution.TwoPOsCreation()[pri:84, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="New_DestinationAddress_WithDifferentCompany()[pri:85, instance:Master.OrdersExecution@2f686d1f]" name="New_DestinationAddress_WithDifferentCompany" duration-ms="52" started-at="2019-04-19T21:05:12Z" finished-at="2019-04-19T21:05:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- New_DestinationAddress_WithDifferentCompany -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-19T21:05:12Z" finished-at="2019-04-19T21:05:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=New_DestinationAddress_WithDifferentCompany status=SUCCESS method=OrdersExecution.New_DestinationAddress_WithDifferentCompany()[pri:85, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="BlindShip_WithConfirmation()[pri:86, instance:Master.OrdersExecution@2f686d1f]" name="BlindShip_WithConfirmation" duration-ms="20504" started-at="2019-04-19T21:05:12Z" finished-at="2019-04-19T21:05:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlindShip_WithConfirmation -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:05:33Z" finished-at="2019-04-19T21:05:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BlindShip_WithConfirmation status=SUCCESS method=OrdersExecution.BlindShip_WithConfirmation()[pri:86, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Purchase_OrderPreview_Verification()[pri:87, instance:Master.OrdersExecution@2f686d1f]" name="Purchase_OrderPreview_Verification" duration-ms="31306" started-at="2019-04-19T21:05:33Z" finished-at="2019-04-19T21:06:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Purchase_OrderPreview_Verification -->
+        <test-method status="PASS" signature="PurchaseOrder_SalesPersonDetailsPreviewVerification()[pri:88, instance:Master.OrdersExecution@2f686d1f]" name="PurchaseOrder_SalesPersonDetailsPreviewVerification" duration-ms="116" started-at="2019-04-19T21:06:04Z" finished-at="2019-04-19T21:06:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PurchaseOrder_SalesPersonDetailsPreviewVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:06:04Z" finished-at="2019-04-19T21:06:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Purchase_OrderPreview_Verification status=SUCCESS method=OrdersExecution.Purchase_OrderPreview_Verification()[pri:87, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:06:04Z" finished-at="2019-04-19T21:06:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PurchaseOrder_SalesPersonDetailsPreviewVerification status=SUCCESS method=OrdersExecution.PurchaseOrder_SalesPersonDetailsPreviewVerification()[pri:88, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="PurchaseOrderPreview_SplitShipment1_DetailsVerification()[pri:89, instance:Master.OrdersExecution@2f686d1f]" name="PurchaseOrderPreview_SplitShipment1_DetailsVerification" duration-ms="74" started-at="2019-04-19T21:06:04Z" finished-at="2019-04-19T21:06:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PurchaseOrderPreview_SplitShipment1_DetailsVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:06:04Z" finished-at="2019-04-19T21:06:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PurchaseOrderPreview_SplitShipment1_DetailsVerification status=SUCCESS method=OrdersExecution.PurchaseOrderPreview_SplitShipment1_DetailsVerification()[pri:89, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="PurchaseOrderPreview_SplitShipment1_DecorationDetailsVerification()[pri:90, instance:Master.OrdersExecution@2f686d1f]" name="PurchaseOrderPreview_SplitShipment1_DecorationDetailsVerification" duration-ms="110" started-at="2019-04-19T21:06:04Z" finished-at="2019-04-19T21:06:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PurchaseOrderPreview_SplitShipment1_DecorationDetailsVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:06:04Z" finished-at="2019-04-19T21:06:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PurchaseOrderPreview_SplitShipment1_DecorationDetailsVerification status=SUCCESS method=OrdersExecution.PurchaseOrderPreview_SplitShipment1_DecorationDetailsVerification()[pri:90, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="PurchaseOrder_PersonalizationDecorationDocDownload()[pri:91, instance:Master.OrdersExecution@2f686d1f]" name="PurchaseOrder_PersonalizationDecorationDocDownload" duration-ms="20030" started-at="2019-04-19T21:06:04Z" finished-at="2019-04-19T21:06:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PurchaseOrder_PersonalizationDecorationDocDownload -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-19T21:06:24Z" finished-at="2019-04-19T21:06:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PurchaseOrder_PersonalizationDecorationDocDownload status=SUCCESS method=OrdersExecution.PurchaseOrder_PersonalizationDecorationDocDownload()[pri:91, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="PurchaseOrder_AtworkDecorationDocDownload()[pri:92, instance:Master.OrdersExecution@2f686d1f]" name="PurchaseOrder_AtworkDecorationDocDownload" duration-ms="19388" started-at="2019-04-19T21:06:24Z" finished-at="2019-04-19T21:06:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PurchaseOrder_AtworkDecorationDocDownload -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:06:44Z" finished-at="2019-04-19T21:06:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PurchaseOrder_AtworkDecorationDocDownload status=SUCCESS method=OrdersExecution.PurchaseOrder_AtworkDecorationDocDownload()[pri:92, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="PurchaseOrder_PreviewShippingDetailsVerification()[pri:93, instance:Master.OrdersExecution@2f686d1f]" name="PurchaseOrder_PreviewShippingDetailsVerification" duration-ms="127" started-at="2019-04-19T21:06:44Z" finished-at="2019-04-19T21:06:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PurchaseOrder_PreviewShippingDetailsVerification -->
+        <test-method status="PASS" signature="PurchaseOrder_BlindShipVerification()[pri:94, instance:Master.OrdersExecution@2f686d1f]" name="PurchaseOrder_BlindShipVerification" duration-ms="89" started-at="2019-04-19T21:06:44Z" finished-at="2019-04-19T21:06:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PurchaseOrder_BlindShipVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:06:44Z" finished-at="2019-04-19T21:06:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PurchaseOrder_PreviewShippingDetailsVerification status=SUCCESS method=OrdersExecution.PurchaseOrder_PreviewShippingDetailsVerification()[pri:93, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:06:44Z" finished-at="2019-04-19T21:06:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PurchaseOrder_BlindShipVerification status=SUCCESS method=OrdersExecution.PurchaseOrder_BlindShipVerification()[pri:94, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="PurchaseOrder_AtworkPODocDownload()[pri:95, instance:Master.OrdersExecution@2f686d1f]" name="PurchaseOrder_AtworkPODocDownload" duration-ms="38424" started-at="2019-04-19T21:06:44Z" finished-at="2019-04-19T21:07:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PurchaseOrder_AtworkPODocDownload -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="5" started-at="2019-04-19T21:07:22Z" finished-at="2019-04-19T21:07:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PurchaseOrder_AtworkPODocDownload status=SUCCESS method=OrdersExecution.PurchaseOrder_AtworkPODocDownload()[pri:95, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="PurchaseOrder_POPDFDocDownload()[pri:96, instance:Master.OrdersExecution@2f686d1f]" name="PurchaseOrder_POPDFDocDownload" duration-ms="10430" started-at="2019-04-19T21:07:22Z" finished-at="2019-04-19T21:07:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PurchaseOrder_POPDFDocDownload -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-19T21:07:33Z" finished-at="2019-04-19T21:07:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PurchaseOrder_POPDFDocDownload status=SUCCESS method=OrdersExecution.PurchaseOrder_POPDFDocDownload()[pri:96, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Calculating_TotalPriceOnPreview()[pri:97, instance:Master.OrdersExecution@2f686d1f]" name="Calculating_TotalPriceOnPreview" duration-ms="121" started-at="2019-04-19T21:07:33Z" finished-at="2019-04-19T21:07:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Calculating_TotalPriceOnPreview -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:07:33Z" finished-at="2019-04-19T21:07:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Calculating_TotalPriceOnPreview status=SUCCESS method=OrdersExecution.Calculating_TotalPriceOnPreview()[pri:97, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="PackingList_DisplayVerification()[pri:98, instance:Master.OrdersExecution@2f686d1f]" name="PackingList_DisplayVerification" duration-ms="7399" started-at="2019-04-19T21:07:33Z" finished-at="2019-04-19T21:07:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PackingList_DisplayVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:07:40Z" finished-at="2019-04-19T21:07:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PackingList_DisplayVerification status=SUCCESS method=OrdersExecution.PackingList_DisplayVerification()[pri:98, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="PurchaseOrder_PreviewPOSend()[pri:99, instance:Master.OrdersExecution@2f686d1f]" name="PurchaseOrder_PreviewPOSend" duration-ms="32552" started-at="2019-04-19T21:07:40Z" finished-at="2019-04-19T21:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PurchaseOrder_PreviewPOSend -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-19T21:08:13Z" finished-at="2019-04-19T21:08:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PurchaseOrder_PreviewPOSend status=SUCCESS method=OrdersExecution.PurchaseOrder_PreviewPOSend()[pri:99, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="SalesOrderPreviewSalesPersonDetails()[pri:100, instance:Master.OrdersExecution@2f686d1f]" name="SalesOrderPreviewSalesPersonDetails" duration-ms="20755" started-at="2019-04-19T21:08:13Z" finished-at="2019-04-19T21:08:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SalesOrderPreviewSalesPersonDetails -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:08:34Z" finished-at="2019-04-19T21:08:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SalesOrderPreviewSalesPersonDetails status=SUCCESS method=OrdersExecution.SalesOrderPreviewSalesPersonDetails()[pri:100, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="SalesOrder_BillingShippingDetailsPreview()[pri:101, instance:Master.OrdersExecution@2f686d1f]" name="SalesOrder_BillingShippingDetailsPreview" duration-ms="129" started-at="2019-04-19T21:08:34Z" finished-at="2019-04-19T21:08:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SalesOrder_BillingShippingDetailsPreview -->
+        <test-method status="PASS" signature="SalesOrder_BlindshipVerification()[pri:102, instance:Master.OrdersExecution@2f686d1f]" name="SalesOrder_BlindshipVerification" duration-ms="73" started-at="2019-04-19T21:08:34Z" finished-at="2019-04-19T21:08:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SalesOrder_BlindshipVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:08:34Z" finished-at="2019-04-19T21:08:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SalesOrder_BillingShippingDetailsPreview status=SUCCESS method=OrdersExecution.SalesOrder_BillingShippingDetailsPreview()[pri:101, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:08:34Z" finished-at="2019-04-19T21:08:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SalesOrder_BlindshipVerification status=SUCCESS method=OrdersExecution.SalesOrder_BlindshipVerification()[pri:102, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="SalesOrderPreview_SplitShipment1_DetailsVerification()[pri:103, instance:Master.OrdersExecution@2f686d1f]" name="SalesOrderPreview_SplitShipment1_DetailsVerification" duration-ms="72" started-at="2019-04-19T21:08:34Z" finished-at="2019-04-19T21:08:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SalesOrderPreview_SplitShipment1_DetailsVerification -->
+        <test-method status="PASS" signature="SalesOrderPreview_SplitShipment1_DecorationDetailsVerification()[pri:104, instance:Master.OrdersExecution@2f686d1f]" name="SalesOrderPreview_SplitShipment1_DecorationDetailsVerification" duration-ms="111" started-at="2019-04-19T21:08:34Z" finished-at="2019-04-19T21:08:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SalesOrderPreview_SplitShipment1_DecorationDetailsVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:08:34Z" finished-at="2019-04-19T21:08:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SalesOrderPreview_SplitShipment1_DetailsVerification status=SUCCESS method=OrdersExecution.SalesOrderPreview_SplitShipment1_DetailsVerification()[pri:103, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="SalesOrder_PreviewShippingFromDetailsVerification()[pri:105, instance:Master.OrdersExecution@2f686d1f]" name="SalesOrder_PreviewShippingFromDetailsVerification" duration-ms="141" started-at="2019-04-19T21:08:34Z" finished-at="2019-04-19T21:08:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SalesOrder_PreviewShippingFromDetailsVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:08:34Z" finished-at="2019-04-19T21:08:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SalesOrderPreview_SplitShipment1_DecorationDetailsVerification status=SUCCESS method=OrdersExecution.SalesOrderPreview_SplitShipment1_DecorationDetailsVerification()[pri:104, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:08:34Z" finished-at="2019-04-19T21:08:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SalesOrder_PreviewShippingFromDetailsVerification status=SUCCESS method=OrdersExecution.SalesOrder_PreviewShippingFromDetailsVerification()[pri:105, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="SalesOrder_ShippingFrom_BlindShipVerification()[pri:106, instance:Master.OrdersExecution@2f686d1f]" name="SalesOrder_ShippingFrom_BlindShipVerification" duration-ms="59" started-at="2019-04-19T21:08:34Z" finished-at="2019-04-19T21:08:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SalesOrder_ShippingFrom_BlindShipVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:08:34Z" finished-at="2019-04-19T21:08:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SalesOrder_ShippingFrom_BlindShipVerification status=SUCCESS method=OrdersExecution.SalesOrder_ShippingFrom_BlindShipVerification()[pri:106, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="SalesOrderPreview_ShippingToDetailsVerification()[pri:107, instance:Master.OrdersExecution@2f686d1f]" name="SalesOrderPreview_ShippingToDetailsVerification" duration-ms="125" started-at="2019-04-19T21:08:34Z" finished-at="2019-04-19T21:08:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SalesOrderPreview_ShippingToDetailsVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:08:34Z" finished-at="2019-04-19T21:08:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SalesOrderPreview_ShippingToDetailsVerification status=SUCCESS method=OrdersExecution.SalesOrderPreview_ShippingToDetailsVerification()[pri:107, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="SalesOrderPreviewInstructions()[pri:108, instance:Master.OrdersExecution@2f686d1f]" name="SalesOrderPreviewInstructions" duration-ms="105" started-at="2019-04-19T21:08:34Z" finished-at="2019-04-19T21:08:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SalesOrderPreviewInstructions -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-19T21:08:34Z" finished-at="2019-04-19T21:08:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SalesOrderPreviewInstructions status=SUCCESS method=OrdersExecution.SalesOrderPreviewInstructions()[pri:108, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="SalesOrderPreview_ServicesDetailsVerification()[pri:109, instance:Master.OrdersExecution@2f686d1f]" name="SalesOrderPreview_ServicesDetailsVerification" duration-ms="104" started-at="2019-04-19T21:08:34Z" finished-at="2019-04-19T21:08:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SalesOrderPreview_ServicesDetailsVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:08:34Z" finished-at="2019-04-19T21:08:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SalesOrderPreview_ServicesDetailsVerification status=SUCCESS method=OrdersExecution.SalesOrderPreview_ServicesDetailsVerification()[pri:109, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Calculating_TotalPrice_OnSalesPreview()[pri:110, instance:Master.OrdersExecution@2f686d1f]" name="Calculating_TotalPrice_OnSalesPreview" duration-ms="262" started-at="2019-04-19T21:08:34Z" finished-at="2019-04-19T21:08:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Calculating_TotalPrice_OnSalesPreview -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:08:35Z" finished-at="2019-04-19T21:08:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Calculating_TotalPrice_OnSalesPreview status=SUCCESS method=OrdersExecution.Calculating_TotalPrice_OnSalesPreview()[pri:110, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="SalesOrder_PDFDocDownload()[pri:111, instance:Master.OrdersExecution@2f686d1f]" name="SalesOrder_PDFDocDownload" duration-ms="35476" started-at="2019-04-19T21:08:35Z" finished-at="2019-04-19T21:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SalesOrder_PDFDocDownload -->
+        <test-method status="PASS" signature="PDFAttach_Checkbox_ischecked_bydefault()[pri:112, instance:Master.OrdersExecution@2f686d1f]" name="PDFAttach_Checkbox_ischecked_bydefault" duration-ms="21986" started-at="2019-04-19T21:09:10Z" finished-at="2019-04-19T21:09:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PDFAttach_Checkbox_ischecked_bydefault -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:09:10Z" finished-at="2019-04-19T21:09:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SalesOrder_PDFDocDownload status=SUCCESS method=OrdersExecution.SalesOrder_PDFDocDownload()[pri:111, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:09:32Z" finished-at="2019-04-19T21:09:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PDFAttach_Checkbox_ischecked_bydefault status=SUCCESS method=OrdersExecution.PDFAttach_Checkbox_ischecked_bydefault()[pri:112, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="SalesOrder_Preview_SalesOrderSend()[pri:113, instance:Master.OrdersExecution@2f686d1f]" name="SalesOrder_Preview_SalesOrderSend" duration-ms="30248" started-at="2019-04-19T21:09:32Z" finished-at="2019-04-19T21:10:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SalesOrder_Preview_SalesOrderSend -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:10:02Z" finished-at="2019-04-19T21:10:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SalesOrder_Preview_SalesOrderSend status=SUCCESS method=OrdersExecution.SalesOrder_Preview_SalesOrderSend()[pri:113, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="AcknowledgementOrder_PreviewSalesPersonDetails()[pri:114, instance:Master.OrdersExecution@2f686d1f]" name="AcknowledgementOrder_PreviewSalesPersonDetails" duration-ms="32692" started-at="2019-04-19T21:10:02Z" finished-at="2019-04-19T21:10:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AcknowledgementOrder_PreviewSalesPersonDetails -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-19T21:10:35Z" finished-at="2019-04-19T21:10:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AcknowledgementOrder_PreviewSalesPersonDetails status=SUCCESS method=OrdersExecution.AcknowledgementOrder_PreviewSalesPersonDetails()[pri:114, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="AckowlodgementPreview_SplitShipment1Details_Verification()[pri:115, instance:Master.OrdersExecution@2f686d1f]" name="AckowlodgementPreview_SplitShipment1Details_Verification" duration-ms="77" started-at="2019-04-19T21:10:35Z" finished-at="2019-04-19T21:10:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AckowlodgementPreview_SplitShipment1Details_Verification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:10:35Z" finished-at="2019-04-19T21:10:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AckowlodgementPreview_SplitShipment1Details_Verification status=SUCCESS method=OrdersExecution.AckowlodgementPreview_SplitShipment1Details_Verification()[pri:115, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="AcknowlodgementPreview_SplitShipment1DecorationDetails_Verification()[pri:116, instance:Master.OrdersExecution@2f686d1f]" name="AcknowlodgementPreview_SplitShipment1DecorationDetails_Verification" duration-ms="109" started-at="2019-04-19T21:10:35Z" finished-at="2019-04-19T21:10:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AcknowlodgementPreview_SplitShipment1DecorationDetails_Verification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:10:35Z" finished-at="2019-04-19T21:10:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AcknowlodgementPreview_SplitShipment1DecorationDetails_Verification status=SUCCESS method=OrdersExecution.AcknowlodgementPreview_SplitShipment1DecorationDetails_Verification()[pri:116, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Ackowledgement_PreviewShippingFromDetailsVerification()[pri:117, instance:Master.OrdersExecution@2f686d1f]" name="Ackowledgement_PreviewShippingFromDetailsVerification" duration-ms="122" started-at="2019-04-19T21:10:35Z" finished-at="2019-04-19T21:10:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ackowledgement_PreviewShippingFromDetailsVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:10:35Z" finished-at="2019-04-19T21:10:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Ackowledgement_PreviewShippingFromDetailsVerification status=SUCCESS method=OrdersExecution.Ackowledgement_PreviewShippingFromDetailsVerification()[pri:117, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="AckowledgementPreviewInstructions()[pri:118, instance:Master.OrdersExecution@2f686d1f]" name="AckowledgementPreviewInstructions" duration-ms="74" started-at="2019-04-19T21:10:35Z" finished-at="2019-04-19T21:10:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AckowledgementPreviewInstructions -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:10:36Z" finished-at="2019-04-19T21:10:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AckowledgementPreviewInstructions status=SUCCESS method=OrdersExecution.AckowledgementPreviewInstructions()[pri:118, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="AcknowledgementPreview_ServicesDetailsVerification()[pri:119, instance:Master.OrdersExecution@2f686d1f]" name="AcknowledgementPreview_ServicesDetailsVerification" duration-ms="103" started-at="2019-04-19T21:10:36Z" finished-at="2019-04-19T21:10:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AcknowledgementPreview_ServicesDetailsVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:10:36Z" finished-at="2019-04-19T21:10:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AcknowledgementPreview_ServicesDetailsVerification status=SUCCESS method=OrdersExecution.AcknowledgementPreview_ServicesDetailsVerification()[pri:119, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Ackowledgement_PersonalizationDecorationDocDownload()[pri:120, instance:Master.OrdersExecution@2f686d1f]" name="Ackowledgement_PersonalizationDecorationDocDownload" duration-ms="20038" started-at="2019-04-19T21:10:36Z" finished-at="2019-04-19T21:10:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ackowledgement_PersonalizationDecorationDocDownload -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:10:56Z" finished-at="2019-04-19T21:10:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Ackowledgement_PersonalizationDecorationDocDownload status=SUCCESS method=OrdersExecution.Ackowledgement_PersonalizationDecorationDocDownload()[pri:120, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Ackowledgement_PDFDocDownload()[pri:121, instance:Master.OrdersExecution@2f686d1f]" name="Ackowledgement_PDFDocDownload" duration-ms="27566" started-at="2019-04-19T21:10:56Z" finished-at="2019-04-19T21:11:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ackowledgement_PDFDocDownload -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-19T21:11:23Z" finished-at="2019-04-19T21:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Ackowledgement_PDFDocDownload status=SUCCESS method=OrdersExecution.Ackowledgement_PDFDocDownload()[pri:121, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Calculating_TotalPrice_OnAckowledgementPreview()[pri:122, instance:Master.OrdersExecution@2f686d1f]" name="Calculating_TotalPrice_OnAckowledgementPreview" duration-ms="20211" started-at="2019-04-19T21:11:23Z" finished-at="2019-04-19T21:11:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Calculating_TotalPrice_OnAckowledgementPreview -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:11:43Z" finished-at="2019-04-19T21:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Calculating_TotalPrice_OnAckowledgementPreview status=SUCCESS method=OrdersExecution.Calculating_TotalPrice_OnAckowledgementPreview()[pri:122, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Acknowledgement_PreviewAckSend()[pri:123, instance:Master.OrdersExecution@2f686d1f]" name="Acknowledgement_PreviewAckSend" duration-ms="58493" started-at="2019-04-19T21:11:43Z" finished-at="2019-04-19T21:12:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Acknowledgement_PreviewAckSend -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:12:42Z" finished-at="2019-04-19T21:12:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Acknowledgement_PreviewAckSend status=SUCCESS method=OrdersExecution.Acknowledgement_PreviewAckSend()[pri:123, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="PurchaseOrder_OrderLevel_POPDFDocDownload()[pri:124, instance:Master.OrdersExecution@2f686d1f]" name="PurchaseOrder_OrderLevel_POPDFDocDownload" duration-ms="39878" started-at="2019-04-19T21:12:42Z" finished-at="2019-04-19T21:13:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PurchaseOrder_OrderLevel_POPDFDocDownload -->
+        <test-method status="PASS" signature="SalesOrder_PreviewDownloadPopup_PDFDocDownload()[pri:125, instance:Master.OrdersExecution@2f686d1f]" name="SalesOrder_PreviewDownloadPopup_PDFDocDownload" duration-ms="32838" started-at="2019-04-19T21:13:22Z" finished-at="2019-04-19T21:13:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SalesOrder_PreviewDownloadPopup_PDFDocDownload -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:13:22Z" finished-at="2019-04-19T21:13:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PurchaseOrder_OrderLevel_POPDFDocDownload status=SUCCESS method=OrdersExecution.PurchaseOrder_OrderLevel_POPDFDocDownload()[pri:124, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:13:55Z" finished-at="2019-04-19T21:13:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SalesOrder_PreviewDownloadPopup_PDFDocDownload status=SUCCESS method=OrdersExecution.SalesOrder_PreviewDownloadPopup_PDFDocDownload()[pri:125, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="AckowledgementDownloadPopup_PDFDocDownload()[pri:126, instance:Master.OrdersExecution@2f686d1f]" name="AckowledgementDownloadPopup_PDFDocDownload" duration-ms="38464" started-at="2019-04-19T21:13:55Z" finished-at="2019-04-19T21:14:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AckowledgementDownloadPopup_PDFDocDownload -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-19T21:14:33Z" finished-at="2019-04-19T21:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AckowledgementDownloadPopup_PDFDocDownload status=SUCCESS method=OrdersExecution.AckowledgementDownloadPopup_PDFDocDownload()[pri:126, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Tax_not_calculating_if_Canadian_address_is_notmatching()[pri:127, instance:Master.OrdersExecution@2f686d1f]" name="Tax_not_calculating_if_Canadian_address_is_notmatching" duration-ms="82075" started-at="2019-04-19T21:14:33Z" finished-at="2019-04-19T21:15:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tax_not_calculating_if_Canadian_address_is_notmatching -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-19T21:15:55Z" finished-at="2019-04-19T21:15:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tax_not_calculating_if_Canadian_address_is_notmatching status=SUCCESS method=OrdersExecution.Tax_not_calculating_if_Canadian_address_is_notmatching()[pri:127, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Tax_is_not_calculating_if_Canadian_addressisnotmatching()[pri:128, instance:Master.OrdersExecution@2f686d1f]" name="Tax_is_not_calculating_if_Canadian_addressisnotmatching" duration-ms="65616" started-at="2019-04-19T21:15:55Z" finished-at="2019-04-19T21:17:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tax_is_not_calculating_if_Canadian_addressisnotmatching -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-19T21:17:01Z" finished-at="2019-04-19T21:17:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tax_is_not_calculating_if_Canadian_addressisnotmatching status=SUCCESS method=OrdersExecution.Tax_is_not_calculating_if_Canadian_addressisnotmatching()[pri:128, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="SameAsBilling_ShippingAddress_Verification_OrderLevel()[pri:129, instance:Master.OrdersExecution@2f686d1f]" name="SameAsBilling_ShippingAddress_Verification_OrderLevel" duration-ms="613" started-at="2019-04-19T21:17:01Z" finished-at="2019-04-19T21:17:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SameAsBilling_ShippingAddress_Verification_OrderLevel -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:17:01Z" finished-at="2019-04-19T21:17:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SameAsBilling_ShippingAddress_Verification_OrderLevel status=SUCCESS method=OrdersExecution.SameAsBilling_ShippingAddress_Verification_OrderLevel()[pri:129, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="CPN_Number_EditProductConfigVerification()[pri:130, instance:Master.OrdersExecution@2f686d1f]" name="CPN_Number_EditProductConfigVerification" duration-ms="3262" started-at="2019-04-19T21:17:01Z" finished-at="2019-04-19T21:17:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CPN_Number_EditProductConfigVerification -->
+        <test-method status="PASS" signature="SameAsBilling_ShippingAddress_Verification_ProductLevel()[pri:131, instance:Master.OrdersExecution@2f686d1f]" name="SameAsBilling_ShippingAddress_Verification_ProductLevel" duration-ms="5926" started-at="2019-04-19T21:17:05Z" finished-at="2019-04-19T21:17:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SameAsBilling_ShippingAddress_Verification_ProductLevel -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:17:05Z" finished-at="2019-04-19T21:17:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CPN_Number_EditProductConfigVerification status=SUCCESS method=OrdersExecution.CPN_Number_EditProductConfigVerification()[pri:130, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-19T21:17:11Z" finished-at="2019-04-19T21:17:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SameAsBilling_ShippingAddress_Verification_ProductLevel status=SUCCESS method=OrdersExecution.SameAsBilling_ShippingAddress_Verification_ProductLevel()[pri:131, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="SameAsBilling_AcknowledgementAddress_Verification_OrderLevel()[pri:132, instance:Master.OrdersExecution@2f686d1f]" name="SameAsBilling_AcknowledgementAddress_Verification_OrderLevel" duration-ms="1420" started-at="2019-04-19T21:17:11Z" finished-at="2019-04-19T21:17:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SameAsBilling_AcknowledgementAddress_Verification_OrderLevel -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:17:12Z" finished-at="2019-04-19T21:17:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SameAsBilling_AcknowledgementAddress_Verification_OrderLevel status=SUCCESS method=OrdersExecution.SameAsBilling_AcknowledgementAddress_Verification_OrderLevel()[pri:132, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="ProfitMaker_SendVerification()[pri:133, instance:Master.OrdersExecution@2f686d1f]" name="ProfitMaker_SendVerification" duration-ms="5546" started-at="2019-04-19T21:17:12Z" finished-at="2019-04-19T21:17:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProfitMaker_SendVerification -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-19T21:17:18Z" finished-at="2019-04-19T21:17:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ProfitMaker_SendVerification status=SUCCESS method=OrdersExecution.ProfitMaker_SendVerification()[pri:133, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Requote_From_OrdersDetails()[pri:134, instance:Master.OrdersExecution@2f686d1f]" name="Requote_From_OrdersDetails" duration-ms="28025" started-at="2019-04-19T21:17:18Z" finished-at="2019-04-19T21:17:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Requote_From_OrdersDetails -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:17:46Z" finished-at="2019-04-19T21:17:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Requote_From_OrdersDetails status=SUCCESS method=OrdersExecution.Requote_From_OrdersDetails()[pri:134, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Requote_From_QuoteDetails()[pri:135, instance:Master.OrdersExecution@2f686d1f]" name="Requote_From_QuoteDetails" duration-ms="47907" started-at="2019-04-19T21:17:46Z" finished-at="2019-04-19T21:18:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Requote_From_QuoteDetails -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="teardown" is-config="true" duration-ms="3503" started-at="2019-04-19T21:18:34Z" finished-at="2019-04-19T21:18:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.OrdersExecution@2f686d1f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-19T21:18:34Z" finished-at="2019-04-19T21:18:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Requote_From_QuoteDetails status=SUCCESS method=OrdersExecution.Requote_From_QuoteDetails()[pri:135, instance:Master.OrdersExecution@2f686d1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- Master.OrdersExecution -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

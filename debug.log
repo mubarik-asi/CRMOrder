@@ -1,0 +1,7 @@
+[0801/142003.147:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0807/202122.224:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0807/202122.225:ERROR:exception_snapshot_win.cc(88)] thread ID 6620 not found in process
+[1108/151857.193:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0207/210823.013:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0220/183753.450:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0419/190754.990:ERROR:file_io.cc(134)] WriteFile: The pipe is being closed. (0xE8)
