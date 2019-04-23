@@ -3,7 +3,7 @@ package PageFactoryandTestdata;
 public class OrdersTestdata {
 
 //==============================================Application URL========================================================================//	
-          public static String CRMandOrders_URL="https://esp.uat-asicentral.com";
+          public static String CRMandOrders_URL="https://esp.stage-asicentral.com";
   
  
  //============================================Browser Path=========================================================================//

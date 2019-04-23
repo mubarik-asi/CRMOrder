@@ -300,10 +300,10 @@ public class OrdersLocators{
 	@FindBy(xpath="//button[contains(@ng-click,'addServiceCharge')]")
 	public WebElement ProductConfiguration_AddChargeLinkText;
 	
-	@FindBy(css="body > div.modal.product-edit-modal-window.fade.ng-scope.ng-isolate-scope.in > div > div > div.modal-body.ng-scope > form > div > div.col-sm-9.col-md-9 > div > div > div.tab-pane.ng-scope.active > div > service-charges > div > table > tbody > tr > td.item-qty > input")
+	@FindBy(css="body > div:nth-child(1) > div > div > div.modal-body.ng-scope > form > div > div.col-sm-9.col-md-9 > div > div > div.tab-pane.ng-scope.active > div > fieldset > service-charges > div > table > tbody > tr > td.item-qty > input")
 	public WebElement ProductConfiguration_AddCharge_QTY;
 	
-	@FindBy(css="body > div.modal.product-edit-modal-window.fade.ng-scope.ng-isolate-scope.in > div > div > div.modal-body.ng-scope > form > div > div.col-sm-9.col-md-9 > div > div > div.tab-pane.ng-scope.active > div > service-charges > div > table > tbody > tr > td.item-cost > input")
+	@FindBy(css="body > div:nth-child(1) > div > div > div.modal-body.ng-scope > form > div > div.col-sm-9.col-md-9 > div > div > div.tab-pane.ng-scope.active > div > fieldset > service-charges > div > table > tbody > tr > td.item-cost > input")
 	public WebElement ProductConfiguration_AddCharge_NetCost;
 	
 /*	@FindBy(xpath="//button[contains(text(),'Save')]")
@@ -315,7 +315,7 @@ public class OrdersLocators{
 	@FindBy(css="body > div.modal.product-edit-modal-window.fade.ng-scope.ng-isolate-scope.in > div > div > div.modal-body.ng-scope > form > div > div.col-sm-9.col-md-9 > div > div > div.tab-pane.ng-scope.active > div > service-charges > div > ng-transclude > table > tbody:nth-child(2) > tr > td:nth-child(1) > button")
 	public WebElement ProductConfiguration_AddVendorCharge_LinkText;
 	
-	@FindBy(css="body > div.modal.product-edit-modal-window.fade.ng-scope.ng-isolate-scope.in > div > div > div.modal-body.ng-scope > form > div > div.col-sm-9.col-md-9 > div > div > div.tab-pane.ng-scope.active > div > service-charges > div > table > tbody:nth-child(3) > tr > td.item-cost > input")
+	@FindBy(css="body > div.modal.product-edit-modal-window.fade.ng-scope.ng-isolate-scope.in > div > div > div.modal-body.ng-scope > form > div > div.col-sm-9.col-md-9 > div > div > div.tab-pane.ng-scope.active > div > fieldset > service-charges > div > table > tbody:nth-child(3) > tr > td.item-cost > input")
 	public WebElement ProductConfiguration_VendorChargeNetCost;
 	
 	@FindBy(xpath="//a[contains(text(),'Decoration')]")
@@ -324,10 +324,10 @@ public class OrdersLocators{
 	@FindBy(xpath="//select[contains(@ng-model,'decoration.getSetLocation')]")
 	public WebElement EditOrder_Decoration_Location;
 	
-	@FindBy(xpath="//div[contains(@class, 'form-group decoration-input-group')]/imprint-methods/div/div/div/div/span/a/i")
+	@FindBy(xpath="//div[contains(@placeholder,'Enter or Choose Imprint Method')]/span//span[contains(@ng-show,'select.isEmpty')]")
 	public WebElement EditOrder_Decoration_ImprintMethod;
 	
-	@FindBy(xpath="/html/body/div[1]/div/div/div[2]/form/div/div[2]/div/div/div[2]/div/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/imprint-methods/div/div[1]/div/div[1]/span/i")
+	@FindBy(xpath="//input[contains(@placeholder,'Enter or Choose Imprint Method')]")
 	public WebElement EditOrder_Decoration_ImprintMethod1;
 	
 	@FindBy(xpath="//span[contains(text(), 'Laser Engraved')]")
@@ -374,10 +374,10 @@ public class OrdersLocators{
 	@FindBy(xpath="//textarea[contains(@ng-model,'decoration.Comments')]")
 	public WebElement EditOrder_Decoration_VendorNotes;
 	
-	@FindBy(css="body > div.modal.product-edit-modal-window.fade.ng-scope.ng-isolate-scope.in > div > div > div.modal-body.ng-scope > form > div > div.col-sm-9.col-md-9 > div > div > div.tab-pane.ng-scope.active > div > div.panel-body > div.decoration-charges > service-charges > div > ng-transclude > table > tbody:nth-child(2) > tr > td:nth-child(1) > button")
+	@FindBy(css="body > div.modal.product-edit-modal-window.fade.ng-scope.ng-isolate-scope.in > div > div > div.modal-body.ng-scope > form > div > div.col-sm-9.col-md-9 > div > div > div.tab-pane.ng-scope.active > div > div.panel-body > fieldset > div.decoration-charges > service-charges > div > table > tfoot > tr > td > button:nth-child(1) > ng-content")
 	public WebElement EditOrder_Decoration_AddCharge_LinkText;
 	
-	@FindBy(css="body > div.modal.product-edit-modal-window.fade.ng-scope.ng-isolate-scope.in > div > div > div.modal-body.ng-scope > form > div > div.col-sm-9.col-md-9 > div > div > div.tab-pane.ng-scope.active > div > div.panel-body > div.decoration-charges > service-charges > div > table > tbody > tr > td.item-cost > input")
+	@FindBy(css="body > div.modal.product-edit-modal-window.fade.ng-scope.ng-isolate-scope.in > div > div > div.modal-body.ng-scope > form > div > div.col-sm-9.col-md-9 > div > div > div.tab-pane.ng-scope.active > div > div.panel-body > fieldset > div.decoration-charges > service-charges > div > table > tbody > tr > td.item-cost > input")
 	public WebElement EditOrder_Decoration_NetCostField;
 	
 

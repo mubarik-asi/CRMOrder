@@ -50,9 +50,9 @@ public class EditOrderProduct_Decoration extends OrdersExecution {
 
     
     Thread.sleep(3000);
-    EditOrderDecoration.EditOrder_Decoration_ImprintMethod1.click();
+    //EditOrderDecoration.EditOrder_Decoration_ImprintMethod1.click();
 
-    Thread.sleep(3000);
+   // Thread.sleep(3000);
     
     EditOrderDecoration.EditOrder_Decoration_Imprint_SelectValue.click();
     Thread.sleep(2000);
